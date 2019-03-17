@@ -1,0 +1,16 @@
+{
+  "name": "roman-num",
+  "version": "1.0.0",
+  "description": "tdd,functional",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js --reporter dot --exit",
+    "test-w": "mocha test/**/*.spec.js --reporter dot -w"
+  },
+  "author": "demongodYY",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
